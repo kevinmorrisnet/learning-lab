@@ -1,8 +1,0 @@
-  volumeMounts:
-  - name: db
-    mountPath: /var/db/mysql
-volumes:
-- name: db
-  persistentVolumeClaim:
-    claimName: mariadb
-
